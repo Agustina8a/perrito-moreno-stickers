@@ -1,6 +1,6 @@
+import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar/NavBar';
-import CardItem from './components/Card/Card';
 import {Container} from '@mui/material'
 import CardList from './components/CardList/CardList';
 
