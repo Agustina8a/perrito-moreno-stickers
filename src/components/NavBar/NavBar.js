@@ -10,7 +10,7 @@ const NavBar = () => {
         <AppBar position="static" className="navstyle">
             <Toolbar className='toolbarcolor'>
                 <div className='navbar-logo'>
-                    <img src='./logo letras.png'></img>
+                    <img src='./LogoLetras.png'></img>
                 </div>
                 <ul>
                     <li>
