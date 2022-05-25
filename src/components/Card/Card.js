@@ -1,7 +1,7 @@
-import { Button } from '@mui/material';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import './Card.css';
+import ItemCount from './ItemCount';
 
 const CardItem = ({ image, title, price, size }) => {
     
@@ -15,7 +15,7 @@ const CardItem = ({ image, title, price, size }) => {
                     <p>{title}</p>
                     <p>{size}</p>
                     <span>${price}</span>
-                    <Button variant={'contained'}>Comprar</Button>
+                    <ItemCount />
                 </div>
             </CardContent>
         </Card>
